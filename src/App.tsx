@@ -1,10 +1,13 @@
-function App () {
+import "./App.css";
+import Home from "./Pages/Home/Homescreen/index";
 
+
+function App() {
   return (
-    <>
-    <h1 style={{color:'white'}}>Hello Bru?</h1>
-    </>
-  )
+  <div className="App">
+      <Home/>
+  </div>
+  );
 }
 
-export default App
+export default App;
